@@ -9,3 +9,6 @@ Built using Python and the Matplotlib library, the script generates a comprehens
 A defining feature of this visualization is the inclusion of a theoretical "Ideal" baseline representing perfect weak scaling efficiency under Gustafson's Law. By contrasting the real-world cluster execution data against this perfectly flat ideal trajectory, the script provides definitive visual proof that while localized computation time remains relatively stable, the exponential growth in inter-process network communication serves as the primary bottleneck in distributed systems.
 
 Ultimately, this repository serves as a lightweight, highly adaptable template for developers, researchers, and students looking to visualize cluster performance data, diagnose network bottlenecks, and generate academic-quality charts for their own parallel computing projects.
+## Sample Output
+
+![Gustafson's Law Weak Scaling Graph](assignment2_gustafson_graph.png)
