@@ -1,4 +1,4 @@
-Parallel Computing Performance Visualizer: Gustafson's Law & Weak Scaling
+**Parallel Computing Performance Visualizer: Gustafson's Law & Weak Scaling**
 
 This repository contains a Python-based data visualization tool designed to analyze the performance, bottlenecks, and scalability of high-performance computing (HPC) applications. Specifically, the script models the weak scaling efficiency of a parallelized Message Passing Interface (MPI) algorithm, evaluating its real-world execution against the theoretical bounds of Gustafson's Law. It provides a clear, high-quality visual breakdown of how distributed computational workloads behave as processor counts and dataset sizes scale simultaneously across a cluster network.
 
