@@ -1,0 +1,17 @@
+name: MPI C++ Build CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install OpenMPI Dependencies
+      run: sudo apt-get update && sudo apt-get install -y openmpi-bin libopenmpi-dev
+      
+    - name: Compile the simulation
+      run: mpic++ -O3 -o assignment2 assignment2.cpp
