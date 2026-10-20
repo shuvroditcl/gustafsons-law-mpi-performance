@@ -1,0 +1,13 @@
+# Compiled objects and executables
+*.o
+*.exe
+*.out
+mpi_sim
+
+# Data outputs and cluster logs
+*.csv
+*.dat
+slurm-*.out
+
+# OS generated files
+.DS_Store
